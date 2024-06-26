@@ -21,10 +21,13 @@ void appr(const std::vector<float>& x, const std::vector<float>& y)
     float a = (n * sanXY - sanX * sanY) / (n * sanX2 - sanX * sanX); 
     float b = (sanY - a * sanX) / n; 
     std::cout << " appr : y = " << a << "x + " << b << std::endl; 
+    
 } 
 int main() 
 { 
+
     std::vector<float> x = {0,1,2,3,4,5,6,7,8,9,10} , y = {4,10,3,7,8,4,10,10,8,4,8}; 
     appr(x, y); 
     return 0; 
+    
 }
