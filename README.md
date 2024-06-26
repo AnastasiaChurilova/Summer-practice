@@ -1,6 +1,7 @@
 # Summer-practice
 # Летняя практика # Реализация линейной аппроксимации / Implementation of linear approximation (appr) 
 ∑(сигма) - сумма всех значений в диапазоне ряда	Σ Xn = X1 + X2 + ... + Xп -> сумма всех чисел/sum of all the numbers (sanX) 
+
 #include <iostream> 
 #include <vector> 
 
@@ -15,6 +16,7 @@ void appr(const std::vector<float>& x, const std::vector<float>& y)
         sanXY += x[i] * y[i]; 
         sanX2 += x[i] * x[i]; 
     } 
+    
     float a = (n * sanXY - sanX * sanY) / (n * sanX2 - sanX * sanX); 
     float b = (sanY - a * sanX) / n; 
     std::cout << " appr : y = " << a << "x + " << b << std::endl; 
