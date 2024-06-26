@@ -1,6 +1,5 @@
 # Summer-practice
-Летняя практика
-Реализация линейной аппроксимации / Implementation of linear approximation (appr) 
+# Летняя практика # Реализация линейной аппроксимации / Implementation of linear approximation (appr) 
 ∑(сигма) - сумма всех значений в диапазоне ряда	Σ Xn = X1 + X2 + ... + Xп -> сумма всех чисел/sum of all the numbers (sanX) 
 #include <iostream> 
 #include <vector> 
