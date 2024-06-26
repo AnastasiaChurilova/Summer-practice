@@ -3,6 +3,7 @@
 ∑(сигма) - сумма всех значений в диапазоне ряда	Σ Xn = X1 + X2 + ... + Xп -> сумма всех чисел/sum of all the numbers (sanX) 
 #include <iostream> 
 #include <vector> 
+
 void appr(const std::vector<float>& x, const std::vector<float>& y) 
 { 
     int n = x.size(); 
