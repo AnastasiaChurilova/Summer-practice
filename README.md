@@ -6,6 +6,7 @@
 #include <vector> 
 
 void appr(const std::vector<float>& x, const std::vector<float>& y) 
+
 { 
     int n = x.size(); 
     float sanX = 0, sanY = 0, sanXY = 0, sanX2 = 0; 
